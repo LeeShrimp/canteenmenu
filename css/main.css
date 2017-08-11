@@ -1,0 +1,182 @@
+/* General Site properties*/
+
+a {
+    color:inherit;
+    text-decoration:inherit;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+a img {
+    outline:none;
+    border:none;
+}
+
+hr {
+    background-color:#f0f0f0;
+    border:0;
+    height:1px;
+    margin:0;
+}
+span a {
+    text-decoration:none;
+}
+
+
+body {
+    left:0;
+    margin: 0;
+    min-width:900px;
+    position:absolute;
+    top:0;
+    width:100%;
+    font-family:Georgia,serif;
+}
+
+span a {
+    text-decoration:none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+
+ul > li {
+    font-size: 15pt;
+    text-shadow: 0px 1px black;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Wrappers*/
+
+#wrapper{
+    position: absolute;
+    width: 100%;
+    font-family: Arial;
+}
+
+#wrapper > header{
+
+    height:92px;
+    left:50%;
+    margin-left: -450px;
+    position: relative;
+    width:900px;
+}
+
+#content {
+
+    height:100%;
+    margin:0 auto;
+    padding:0 auto;
+    width:900px;
+}
+
+/* Header */
+#header-logo {
+    float:left;
+    margin-top:6px;
+    width:63px;
+}
+
+#header-title {
+    position: absolute;
+    color:#3c3c3c;
+    font-size:19pt;
+    margin-left:18px;
+    margin-top:11px;
+}
+
+#dateText {
+    margin-top: 38px;
+    position: absolute;
+    font-size: 11pt;
+    color: #3c3c3c;
+    margin-left:20px;
+}
+
+#weekText {
+    margin-top: 56px;
+    position: absolute;
+    font-size: 11pt;
+    color: #3c3c3c;
+    margin-left:20px;
+}
+
+/*Nav*/
+
+#nav {
+    float: right;
+    margin-top:23px;
+    height:40px;
+    vertical-align:middle;
+    color:#505050;
+}
+
+#nav > a {
+    height:40px;
+    line-height:40px;
+    color:#505050;
+    display:block;
+    float:left;
+    font-size:21px;
+    cursor:pointer;
+    margin-left:0;
+    margin-right:25px;
+}
+
+
+#nav > a:hover {
+    color: #78053b;
+}
+
+/*Tables*/
+
+.table {
+    margin: 0 auto;
+    padding: 0 auto ;
+}
+
+td {
+    padding: 10px;
+    margin: 10px;
+}
+
+.items{
+    padding: 3px ;
+    margin: 4px  ;
+    width: 23%;
+    display: block;
+    float: left;
+    border: 1px solid #f0f0f0;
+
+
+}
+
+.item-img {
+    margin: auto;
+    display: block;
+
+}
+
+a.more {
+    color: #0000FF;
+}
+
+.more > a:hover {
+    color: #78053b
+}
+
+
