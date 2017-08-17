@@ -32,6 +32,11 @@ h3{
     margin:0 auto;
 }
 
+h4{
+    margin: 0 auto;
+    padding: 6.6px;
+}
+
 span a {
     text-decoration:none;
 }
