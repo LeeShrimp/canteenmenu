@@ -73,11 +73,7 @@ ul > li {
 
 }
 
-table, th, td {
-    border: 1px solid black;
-}
-
-/* Wrappers*/
+/* Wrappers */
 
 #wrapper{
     position: absolute;
@@ -85,17 +81,6 @@ table, th, td {
     font-family: Arial;
     height:100%;
 
-}
-
-
-
-header{
-
-    height:92px;
-    left:50%;
-    margin-left: -450px;
-    position: relative;
-    width:900px;
 }
 
 #content {
@@ -108,8 +93,15 @@ header{
 
 }
 
-/* Header */
+/*Header Properties */
+header{
 
+    height:92px;
+    left:50%;
+    margin-left: -450px;
+    position: relative;
+    width:900px;
+}
 
 #header-logo {
     float:left;
@@ -176,6 +168,7 @@ a:hover{
     color: #78053b;
 }
 
+/*Menu Items*/
 .items{
     padding: 3px ;
     margin: 4px  ;
@@ -193,6 +186,7 @@ a:hover{
 
 }
 
+/*
 footer{
     height: 30px;
     width:100%;
