@@ -134,39 +134,6 @@ header{
 
 /*Nav*/
 
-#nav {
-    float: right;
-    margin-top:23px;
-    height:40px;
-    vertical-align:middle;
-    color:#505050;
-
-}
-
-#nav > a {
-    height:40px;
-    line-height:40px;
-    color:#505050;
-    display:block;
-    float:left;
-    font-size:21px;
-    cursor:pointer;
-    margin-left:0;
-}
-
-
-#nav > a:hover {
-    color: #78053b;
-}
-
-a.more {
-    color: cornflowerblue;
-}
-
-a:hover{
-    color: #78053b;
-}
-
     /*Drop Down*/
 
     /* Dropdown Button */
@@ -177,6 +144,7 @@ a:hover{
         font-size: 16px;
         border: none;
         cursor: pointer;
+        
     }
 
     /* Dropdown button on hover & focus */
