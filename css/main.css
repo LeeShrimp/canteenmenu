@@ -168,6 +168,10 @@ a:hover{
     color: #78053b;
 }
 
+.dropbtn{
+    visibility: hidden;
+}
+
 /*Menu Items*/
 .items{
     padding: 3px ;
@@ -185,6 +189,7 @@ a:hover{
     display: block;
 
 }
+
 
 /*
 footer{
