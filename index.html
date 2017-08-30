@@ -10,8 +10,12 @@
         <link rel="shortcut icon" href="favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" media="screen and (max-width: 770px)" href="css/mobile.css">
+        <link rel="stylesheet" media="screen and (min-width: 771px)" href="css/main.css">
+
         <!--<script src="https://mail.garincollege.ac.nz/Resources/code.js?version=152"></script>-->
+        <script src="js/main.js"></script>
+
     </head>
 
     <body>
@@ -25,12 +29,15 @@
                     <span id="dateText">30 May, Tuesday</span>
                     <a href="http://122.56.184.15/student/index.php/timetable"><span id="weekText">Week B</span></a>
 
-                    <div id="nav">
-                        <a href="index.html">Home</a>
-                        <a href="pages/drinks.html">Drinks</a>
-                        <a href="">Cold Food</a>
-                        <a href="#">Hot Food</a>
-                        <a href="#">Snacks</a>
+                    <div class="dropdown">
+                        <buttton onclick="dropdown()" class="dropbtn">Menu <span class="dropdown-triangle" aria-hidden="true">▼</span></buttton>
+                        <div id="nav" class="dropdown-content">
+                            <a href="index.html">Home</a>
+                            <a href="pages/drinks.html">Drinks</a>
+                            <a href="">Cold Food</a>
+                            <a href="#">Hot Food</a>
+                            <a href="#">Snacks</a>
+                        </div>
                     </div>
                 </header>
             </div>
@@ -46,7 +53,7 @@
                 <!--All menu items in here-->
                 <div class="items">
                     <h3>Iced Banana</h3>
-                    <img class="item-img" src="../img/Iced_Banana_375ml.jpg" alt="Iced Banana">
+                    <img class="item-img" src="img/Iced_Banana_375ml.jpg" alt="Iced Banana">
                     <p>$3.50 375ml</p>
                     <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                 </div>

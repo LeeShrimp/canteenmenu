@@ -96,15 +96,15 @@ ul > li {
 /*Header Properties */
 header{
 
-    height:92px;
-
+    height:82px;
+    width: 100%;
 
 }
 
 #header-logo {
     float:left;
     margin-top:6px;
-    width:63px;
+    width:53px;
 
 }
 
@@ -112,24 +112,24 @@ header{
     position: absolute;
     color:#3c3c3c;
     font-size:19pt;
-    margin-left:18px;
-    margin-top:11px;
+    margin-left:8px;
+    margin-top:5px;
 }
 
 #dateText {
-    margin-top: 38px;
+    margin-top: 34px;
     position: absolute;
     font-size: 11pt;
     color: #3c3c3c;
-    margin-left:20px;
+    margin-left:10px;
 }
 
 #weekText {
-    margin-top: 56px;
+    margin-top: 52px;
     position: absolute;
     font-size: 11pt;
     color: #3c3c3c;
-    margin-left:20px;
+    margin-left:10px;
 }
 
 /*Nav*/
@@ -145,7 +145,7 @@ header{
         cursor: pointer;
         display: block;
         margin-top: 15px;
-        margin-right: 50px;
+        margin-right: 30px;
 
     }
 
@@ -201,19 +201,21 @@ header{
 .items{
     padding: 3px ;
     margin: 4px  ;
-    width: 215px;
+    width: 150px;
     display: inline-block;
     float: left;
     border: 1px solid #f0f0f0;
     vertical-align: middle;
 
     background-color: white;
+
+
 }
 
 .item-img {
     margin: auto;
     display: block;
-
+    width:100%;
 }
 
 /*
