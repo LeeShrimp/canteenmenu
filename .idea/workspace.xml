@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc0231d3-059d-4d33-914e-39d9b307e291" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Cool Sips Orange.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Cool Sips Passion.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Cool-Sips-Berry.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Iced_Banana_375ml.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Iced_Chocolate_375ml.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Iced_Coffee_375ml.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Iced_Mocha_375ml.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Iced_Vanilla_375ml.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bagel-test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/berrycan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blt-test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cafelogo.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cafelogo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cafelogo2.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cafelogo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/calcistrong.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/chickenwrap-test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/freshapple.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/freshorange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/honestberry.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/honestlemon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/lemon-lime-bottle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/limecan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/orange-mango-bottle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/orangecan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/red-berry-bottle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/up&amp;go.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/cold.html" afterPath="$PROJECT_DIR$/pages/cold.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/drinks.html" afterPath="$PROJECT_DIR$/pages/drinks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/hot.html" afterPath="$PROJECT_DIR$/pages/hot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/snacks.html" afterPath="$PROJECT_DIR$/pages/snacks.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -371,7 +340,7 @@
       <workItem from="1506287448036" duration="19000" />
       <workItem from="1506287624022" duration="163000" />
       <workItem from="1506551681478" duration="908000" />
-      <workItem from="1508280872258" duration="5076000" />
+      <workItem from="1508280872258" duration="5129000" />
     </task>
     <task id="LOCAL-00001" summary="New pages">
       <created>1502925496899</created>
@@ -485,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504135876622</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Shinn's images, edited and on site">
+      <created>1508298328817</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1508298328817</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63455000" />
+    <option name="totallyTimeSpent" value="63508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,7 +512,8 @@
     <MESSAGE value="Drop down fixed" />
     <MESSAGE value="Drop down finished" />
     <MESSAGE value="Before i fuck up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before i fuck up" />
+    <MESSAGE value="Shinn's images, edited and on site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shinn's images, edited and on site" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
