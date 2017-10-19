@@ -10,7 +10,7 @@ a {
 
 a img {
     outline:none;
-    border:none; 
+    border:none;
 }
 
 hr {
@@ -99,8 +99,8 @@ header{
 
     height:92px;
     left:50%;
-    
-   
+
+
     width:100%;
 }
 
@@ -114,7 +114,7 @@ header{
     position: absolute;
     color:#3c3c3c;
     font-size:19pt;
-    margin-left:18px;
+    margin-left:8px;
     margin-top:11px;
 }
 
@@ -122,7 +122,7 @@ header{
 	position: absolute;
     color:#3c3c3c;
     font-size:18pt;
-    margin-left:20px;
+    margin-left:8px;
     margin-top:40px;
 }
 
@@ -201,9 +201,9 @@ header{
 
 .menu-boxes{
     border-radius: 2px;
-    padding: 20px; 
+    padding: 20px;
     width: ;
-    height: 30px; 
+    height: 30px;
 	text-align: center;
 	vertical-align: middle;
 	font-size: 18px;
@@ -229,7 +229,7 @@ header{
 
     background-color: white;
 
-	
+
 }
 
 .item-img {
@@ -238,11 +238,28 @@ header{
     width:100%;
 }
 
-/*
-footer{
-    height: 30px;
-    width:100%;
-    background-color: #888888;
+/* Footer*/
+
+#footer{
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .8);
+    color: #cacaca;
+    clear:both;
+    margin-top:18px;
+    padding:15px 0 12px 0;
+    height:25px;
+    text-align:center;
+    font-size:15px;
+    line-height:19px;
+    border-top:#b9bdbe solid 1px;
+
+}
+
+
+#footer a:hover{
+    color: #78053b;
+    text-decoration:none;
 }
 
 

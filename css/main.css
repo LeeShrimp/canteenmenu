@@ -186,6 +186,7 @@ a:hover{
 }
 
 .menu-boxes{
+
     border-radius: 2px;
     padding: 20px;
     width: 13.9%;
@@ -230,7 +231,7 @@ a:hover{
 	height: 278.5px;
     display: inline-block;
     float: left;
-    border: 1px solid #f0f0f0;
+    border: px solid #f0f0f0;
 
     background-color: white;
 
@@ -242,12 +243,27 @@ a:hover{
 	width: 100%;
 }
 
+/* Footer*/
 
-/*
-footer{
-    height: 30px;
-    width:100%;
-    background-color: #888888;
+#footer{
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .8);
+    color: #cacaca;
+    clear:both;
+    margin-top:18px;
+    padding:15px 0 12px 0;
+    height:25px;
+    text-align:center;
+    font-size:15px;
+    line-height:19px;
+    border-top:#b9bdbe solid 1px;
+}
+
+
+#footer a:hover{
+    color: #78053b;
+    text-decoration:none;
 }
 
 
