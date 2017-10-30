@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc0231d3-059d-4d33-914e-39d9b307e291" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/cold.html" afterPath="$PROJECT_DIR$/pages/cold.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/frozen.html" afterPath="$PROJECT_DIR$/pages/frozen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/hot.html" afterPath="$PROJECT_DIR$/pages/hot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/snacks.html" afterPath="$PROJECT_DIR$/pages/snacks.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -430,7 +426,7 @@
       <workItem from="1506287624022" duration="163000" />
       <workItem from="1506551681478" duration="908000" />
       <workItem from="1508280872258" duration="19745000" />
-      <workItem from="1509394689875" duration="3000" />
+      <workItem from="1509394689875" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="New pages">
       <created>1502925496899</created>
@@ -586,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508457295690</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="More Snacks added">
+      <created>1509394719744</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1509394719744</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78127000" />
+    <option name="totallyTimeSpent" value="78165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -642,7 +645,8 @@
     <MESSAGE value="Added Mill Orchard photos" />
     <MESSAGE value="Added a footer to all pages with contact link" />
     <MESSAGE value="Fixed bagel price" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bagel price" />
+    <MESSAGE value="More Snacks added" />
+    <option name="LAST_COMMIT_MESSAGE" value="More Snacks added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
