@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc0231d3-059d-4d33-914e-39d9b307e291" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/cold.html" afterPath="$PROJECT_DIR$/pages/cold.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/drinks.html" afterPath="$PROJECT_DIR$/pages/drinks.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/frozen.html" afterPath="$PROJECT_DIR$/pages/frozen.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/hot.html" afterPath="$PROJECT_DIR$/pages/hot.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/snacks.html" afterPath="$PROJECT_DIR$/pages/snacks.html" />
@@ -29,7 +27,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
+            <state relative-caret-position="1547">
               <caret line="91" column="76" lean-forward="false" selection-start-line="91" selection-start-column="76" selection-end-line="91" selection-end-column="76" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,11 +41,10 @@
       <file leaf-file-name="drinks.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/drinks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="187" column="35" lean-forward="true" selection-start-line="187" selection-start-column="35" selection-end-line="187" selection-end-column="35" />
+            <state relative-caret-position="1020">
+              <caret line="60" column="89" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="89" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#em#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#em#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -106,13 +103,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cold.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cold.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/cold.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
-                <element signature="e#5237#5243#0" expanded="true" />
+                <element signature="e#5373#5379#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,28 +118,32 @@
       <file leaf-file-name="hot.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/hot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="128" column="76" lean-forward="false" selection-start-line="128" selection-start-column="76" selection-end-line="128" selection-end-column="76" />
+            <state relative-caret-position="1955">
+              <caret line="115" column="48" lean-forward="true" selection-start-line="115" selection-start-column="48" selection-end-line="115" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#5700#5706#0" expanded="true" />
+                <element signature="e#5853#5859#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snacks.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="snacks.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/snacks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+            <state relative-caret-position="630">
+              <caret line="120" column="26" lean-forward="false" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
-                <element signature="e#3882#3888#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="e#6093#6099#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,10 +152,22 @@
       <file leaf-file-name="frozen.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/frozen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1283">
-              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
               <folding>
-                <element signature="e#3814#3820#0" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#0;n#div#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#0;n#div#5;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#0;n#div#6;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#0;n#div#7;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#0;n#div#8;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#9;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#em#0;n#p#0;n#div#9;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+                <element signature="e#6647#6653#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,7 +176,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
+            <state relative-caret-position="4386">
               <caret line="258" column="21" lean-forward="true" selection-start-line="258" selection-start-column="21" selection-end-line="258" selection-end-column="21" />
               <folding />
             </state>
@@ -173,7 +186,7 @@
       <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
+            <state relative-caret-position="4403">
               <caret line="259" column="16" lean-forward="true" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
               <folding />
             </state>
@@ -212,11 +225,11 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/mobile.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/drinks.html" />
+        <option value="$PROJECT_DIR$/pages/cold.html" />
         <option value="$PROJECT_DIR$/pages/hot.html" />
         <option value="$PROJECT_DIR$/pages/frozen.html" />
-        <option value="$PROJECT_DIR$/pages/drinks.html" />
         <option value="$PROJECT_DIR$/pages/snacks.html" />
-        <option value="$PROJECT_DIR$/pages/cold.html" />
       </list>
     </option>
   </component>
@@ -227,10 +240,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
-    <option name="y" value="58" />
+    <option name="x" value="319" />
     <option name="width" value="1341" />
-    <option name="height" value="916" />
+    <option name="height" value="907" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -247,8 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,6 +287,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,7 +429,8 @@
       <workItem from="1506287448036" duration="19000" />
       <workItem from="1506287624022" duration="163000" />
       <workItem from="1506551681478" duration="908000" />
-      <workItem from="1508280872258" duration="14502000" />
+      <workItem from="1508280872258" duration="19745000" />
+      <workItem from="1509394689875" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="New pages">
       <created>1502925496899</created>
@@ -566,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508445909386</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fixed bagel price">
+      <created>1508457295690</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1508457295690</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72881000" />
+    <option name="totallyTimeSpent" value="78127000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,7 +602,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="58" width="1341" height="916" extended-state="0" />
+    <frame x="319" y="0" width="1341" height="907" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12773998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -621,7 +641,8 @@
     <MESSAGE value="Added a frozen category page" />
     <MESSAGE value="Added Mill Orchard photos" />
     <MESSAGE value="Added a footer to all pages with contact link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a footer to all pages with contact link" />
+    <MESSAGE value="Fixed bagel price" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bagel price" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -796,11 +817,7 @@
     <entry file="file://$PROJECT_DIR$/robots.txt" />
     <entry file="file://$PROJECT_DIR$/tile.png" />
     <entry file="file://$PROJECT_DIR$/apple-touch-icon.png" />
-    <entry file="file://$PROJECT_DIR$/img/Iced_Chocolate_375ml.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Iced_Chocolate_375ml.jpg" />
     <entry file="file://$PROJECT_DIR$/js/plugins.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -831,7 +848,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
+        <state relative-caret-position="1547">
           <caret line="91" column="76" lean-forward="false" selection-start-line="91" selection-start-column="76" selection-end-line="91" selection-end-column="76" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -841,45 +858,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/hot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="128" column="76" lean-forward="false" selection-start-line="128" selection-start-column="76" selection-end-line="128" selection-end-column="76" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5700#5706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/frozen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1283">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="e#3814#3820#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
+        <state relative-caret-position="4386">
           <caret line="258" column="21" lean-forward="true" selection-start-line="258" selection-start-column="21" selection-end-line="258" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4403">
+          <caret line="259" column="16" lean-forward="true" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/hot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" column="48" lean-forward="true" selection-start-line="115" selection-start-column="48" selection-end-line="115" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5853#5859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/drinks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="187" column="35" lean-forward="true" selection-start-line="187" selection-start-column="35" selection-end-line="187" selection-end-column="35" />
+        <state relative-caret-position="1020">
+          <caret line="60" column="89" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="89" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#em#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#em#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -937,32 +951,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+    <entry file="file://$PROJECT_DIR$/pages/cold.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="259" column="16" lean-forward="true" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="1411">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="e#5373#5379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/frozen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#em#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#0;n#div#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#0;n#div#5;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#0;n#div#6;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#0;n#div#7;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#0;n#div#8;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#9;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#em#0;n#p#0;n#div#9;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="e#6647#6653#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/snacks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        <state relative-caret-position="630">
+          <caret line="120" column="26" lean-forward="false" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
-            <element signature="e#3882#3888#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/cold.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding>
-            <element signature="e#5237#5243#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#div#1;n#div#0;n#body#0;n#html#1;n#Doctype#0;n#!!top" expanded="true" />
+            <element signature="e#6093#6099#0" expanded="true" />
           </folding>
         </state>
       </provider>
