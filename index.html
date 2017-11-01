@@ -10,11 +10,17 @@
         <link rel="shortcut icon" href="favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
+        <!--CSS for view windows smaller than 770px, mobiles-->
         <link rel="stylesheet" media="screen and (max-width: 770px)" href="css/mobile.css">
-        <link rel="stylesheet" media="screen and (min-width: 771px)" href="css/main.css">
+        <!--CSS for view windows greater than 770px, pc-->
+        <link rel="stylesheet" media="screen and (min-width: 771px)" href="css/main2.css">
 
         <!--<script src="https://mail.garincollege.ac.nz/Resources/code.js?version=152"></script>-->
+
+        <!--Main JS script-->
         <script src="js/main.js"></script>
+
+
 
     </head>
 
@@ -24,14 +30,18 @@
             <!--Header -->
             <div  style="background-color:#fff; width:100%">
                 <header>
+                    <!--Logo and title-->
                     <a href="http://www.garincollege.ac.nz/" target="_blank"><img src="img/logo.png" id="header-logo" alt="Garin College"></a>
                     <span id="header-title" aria-hidden="true">Garin College</span>
 					<span id="header-cafe" aria-hidden="true">Shadez Cafe</span>
 
+                    <!--Nav, class "dropdown" only activates with widows smaller than 770px-->
                     <div class="dropdown">
                         <buttton onclick="dropdown()" class="dropbtn">Menu <span class="dropdown-triangle" aria-hidden="true">▼</span></buttton>
 
+
                         <div id="nav" class="dropdown-content">
+                            <!--Links to other sites-->
 								<a href="index.html">Home</a>
 								<a href="pages/drinks.html">Drinks</a>
 								<a href="pages/cold.html">Cold Food</a>
@@ -48,12 +58,15 @@
 
             <!--All Other content in here-->
             <div id="content">
-                <!--Title and horz line-->
+
+                <!--Title and horizontal line-->
                 <h2>Menu</h2>
                 <hr>
 
+                <!--Small intro-->
 				<p>Welcome to the Garin College, Shadez Cafe online menu.</p>
 
+                <!--These are the white boxes on the landing page that link to the subpages-->
 				<a href="pages/drinks.html">
 				<div class="menu-boxes">
                         <h2>Drinks</h2>
@@ -84,11 +97,13 @@
                     </div>
                 </a>
 
+                <!--Work in progress label-->
                 <p style="text-align: center">***Please be advised this is still a work in progress. Some bugs and problems may arise.*** <br>
                 ***If you find any please send a report to the email at the bottom of the page.***</p>
 
              </div>
 
+            <!--Footer that has link to email for bugs-->
             <div id="footer">Copyright &copy; 2017 | <a href="mailto: shadez.menu@gmail.com">Contact Us</a></div>
 
         </div>

@@ -1,49 +1,60 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Canteen Menu</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Canteen Menu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="../favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/normalize.css">
-        <link rel="stylesheet" media="screen and (max-width: 757px)" href="../css/mobile.css">
-        <link rel="stylesheet" media="screen and (min-width: 758px)" href="../css/main.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!--CSS for view windows smaller than 770px, mobiles-->
+    <link rel="stylesheet" media="screen and (max-width: 770px)" href="../css/mobile.css">
+    <!--CSS for view windows greater than 770px, pc-->
+    <link rel="stylesheet" media="screen and (min-width: 771px)" href="../css/main.css">
 
-        <!--<script src="https://mail.garincollege.ac.nz/Resources/code.js?version=152"></script>-->
-        <script src="../js/main.js"></script>
+    <!--<script src="https://mail.garincollege.ac.nz/Resources/code.js?version=152"></script>-->
 
-    </head>
+    <!--Main JS script-->
+    <script src="../js/main.js"></script>
 
-    <body>
-        <div id="wrapper">
 
-            <!--Header -->
-            <div  style="background-color:#fff; width:100%, padding:0px;, margin:0px;">
-                <header>
-                     <a href="http://www.garincollege.ac.nz/" target="_blank"><img src="../img/logo.png" id="header-logo" alt="Garin College"></a>
-                    <span id="header-title" aria-hidden="true">Garin College</span>
-					<span id="header-cafe" aria-hidden="true">Shadez Cafe</span>
 
-                    <div class="dropdown">
-                        <buttton onclick="dropdown()" class="dropbtn">Menu <span class="dropdown-triangle" aria-hidden="true">▼</span></buttton>
-                        <div id="nav" class="dropdown-content">
+</head>
 
-								<a href="../index.html">Home</a>
-								<a href="drinks.html">Drinks</a>
-								<a href="cold.html">Cold Food</a>
-								<a href="hot.html">Hot Food</a>
-								<a href="snacks.html">Snacks</a>
-                                <a href="frozen.html">Frozen</a>
-                        </div>
-                    </div>
-                </header>
+<body>
+<div id="wrapper">
+
+    <!--Header -->
+    <div  style="background-color:#fff; width:100%">
+        <header>
+            <!--Logo and title-->
+            <a href="http://www.garincollege.ac.nz/" target="_blank"><img src="../img/logo.png" id="header-logo" alt="Garin College"></a>
+            <span id="header-title" aria-hidden="true">Garin College</span>
+            <span id="header-cafe" aria-hidden="true">Shadez Cafe</span>
+
+            <!--Nav, class "dropdown" only activates with widows smaller than 770px-->
+            <div class="dropdown">
+                <buttton onclick="dropdown()" class="dropbtn">Menu <span class="dropdown-triangle" aria-hidden="true">▼</span></buttton>
+
+
+                <div id="nav" class="dropdown-content">
+                    <!--Links to other sites-->
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/drinks.html">Drinks</a>
+                    <a href="../pages/cold.html">Cold Food</a>
+                    <a href="../pages/hot.html">Hot Food</a>
+                    <a href="../pages/snacks.html">Snacks</a>
+                    <a href="../pages/frozen.html">Frozen</a>
+                </div>
+
             </div>
-            <hr>
-            <!--End Header-->
+        </header>
+    </div>
+    <hr>
+    <!--End Header-->
 
             <!--All Other content in here-->
             <div id="content">
@@ -56,38 +67,36 @@
 
                     <!--Nippys-->
                     <div class="items">
+                        <!--Name of item-->
                         <h3>Iced Chocolate</h3>
+                        <!--Link to image of item-->
                         <img class="item-img" src="../img/drinks/Iced_Chocolate_375ml.jpg" alt="Iced Chocolate">
-                        <p><strong>$3.50</strong> <em style="font-size: small">375ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
+                        <!--Price and size if apdlicable-->
+                        <p><strong><!--Edit price here-->$3.50</strong> <em style="font-size: small"><!--Edit size here-->375ml</em></p>
                     </div>
 
                     <div class="items">
                         <h3>Iced Banana</h3>
                         <img class="item-img" src="../img/drinks/Iced_Banana_375ml.jpg" alt="Iced Banana">
                         <p><strong>$3.50</strong> <em style="font-size: small">375ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Iced Mocha</h3>
                         <img class="item-img" src="../img/drinks/Iced_Mocha_375ml.jpg" alt="Iced Mocha">
                         <p><strong>$3.50</strong> <em style="font-size: small">375ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Iced Coffee</h3>
                         <img class="item-img" src="../img/drinks/Iced_Coffee_375ml.jpg" alt="Iced Coffee">
                         <p><strong>$3.50</strong> <em style="font-size: small">375ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Iced Vanilla</h3>
                         <img class="item-img" src="../img/drinks/Iced_Vanilla_375ml.jpg" alt="Iced Vanilla">
                         <p><strong>$3.50</strong> <em style="font-size: small">375ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <!--Cool Sip-->
@@ -95,21 +104,18 @@
                         <h3>Berry Cool-Sip</h3>
                         <img class="item-img" src="../img/drinks/Cool-Sips-Berry.jpg" alt="Berry Flavoured Cool-Sip">
                         <p><strong>$1.30</strong> <em style="font-size: small">250ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Orange Cool-Sip</h3>
                         <img class="item-img" src="../img/drinks/Cool%20Sips%20Orange.jpg" alt="Orange Flavoured Cool-Sip">
                         <p><strong>$1.30</strong> <em style="font-size: small">250ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Passion Cool-Sip</h3>
                         <img class="item-img" src="../img/drinks/Cool%20Sips%20Passion.jpg" alt="Passion Fruit Flavoured Cool-Sip">
                         <p><strong>$1.30</strong> <em style="font-size: small">250ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <!--Sparkling OH!-->
@@ -117,42 +123,36 @@
                         <h3>Lemon-Lime OH!</h3>
                         <img class="item-img" src="../img/drinks/lemon-lime-bottle.png" alt="Lemon-Lime Sparkling OH!">
                         <p><strong>$3.50</strong> <em style="font-size: small">500ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Lemon-Lime OH!</h3>
                         <img class="item-img" src="../img/drinks/limecan.jpg" alt="Lemon-Lime Sparkling OH!">
                         <p><strong>$2.00</strong> <em style="font-size: small">250ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Orange-Mango OH!</h3>
                         <img class="item-img" src="../img/drinks/orange-mango-bottle.png" alt="Orange-Mango Sparkling OH!">
                         <p><strong>$3.50</strong> <em style="font-size: small">500ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Orange-Mango OH!</h3>
                         <img class="item-img" src="../img/drinks/orangecan.jpg" alt="Orange-Mango Sparkling OH!">
                         <p><strong>$2.00</strong> <em style="font-size: small">250ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Red-Berry OH!</h3>
                         <img class="item-img" src="../img/drinks/red-berry-bottle.png" alt="Red-Berry Sparkling OH!">
                         <p><strong>$3.50</strong> <em style="font-size: small">500ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Red-Berry OH!</h3>
                         <img class="item-img" src="../img/drinks/berrycan.jpg" alt="Red-Berry Sparkling OH!">
                         <p><strong>$2.00</strong> <em style="font-size: small">250ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <!--Milk-->
@@ -160,14 +160,12 @@
                         <h3>UP & Go Choc Ice</h3>
                         <img class="item-img" src="../img/drinks/up&go.jpg" alt="Up & Go Choc Ice Reduced Sugar">
                         <p><strong>$3.50</strong> <em style="font-size: small">3.50ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Calci Strong Choc</h3>
                         <img class="item-img" src="../img/drinks/calcistrong.jpg" alt="Meadow Fresh Calci Strong Flavoured Milk Chocolate Uht">
                         <p><strong>$2.00</strong> <em style="font-size: small">250ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <!--Charlies-->
@@ -175,14 +173,12 @@
                         <h4>Charlie's Honest Berry</h4>
                         <img class="item-img" src="../img/drinks/honestberry.jpg" alt="Charlie's Honest Fizz: Raspberry">
                         <p><strong>$2.50</strong> <em style="font-size: small">350ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h4>Charlie's Honest Lemon</h4>
                         <img class="item-img" src="../img/drinks/honestlemon.jpg" alt="Charlie's Honest Fizz: Lemonade">
                         <p><strong>$2.50</strong> <em style="font-size: small">350ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <!--Fresh Up-->
@@ -190,14 +186,13 @@
                         <h4>Fresh-Up Apple & Orange</h4>
                         <img style=" width: 86%; " class="item-img" src="../img/drinks/freshorange.png" alt="Fresh-Up Apple & Orange">
                         <p><strong>$2.50</strong> <em style="font-size: small">355ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
+
                     </div>
 
                     <div class="items">
                         <h3>Fresh-Up Apple</h3>
                         <img class="item-img" src="../img/drinks/freshapple.jpg" alt="Fresh-Up Marvelous Apple">
                         <p><strong>$2.50</strong> <em style="font-size: small">355ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <!--Mill Orchard-->
@@ -205,28 +200,24 @@
                         <h3>Mill Orchard Apple Current</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/drinks/blackcurent250ml.jpg" alt="Fresh-Up Marvelous Apple">
                         <p><strong>$2.00</strong> <em style="font-size: small">250ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Mill Orchard Apple Current</h3>
                         <img style=" width: 86%; "class="item-img" src="../img/drinks/apple_current.png" alt="Fresh-Up Marvelous Apple">
                         <p><strong>$2.50</strong> <em style="font-size: small">400ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Mill Orchard Apple Berry</h3>
                         <img style=" width: 86%; ;"class="item-img" src="../img/drinks/apple_berry.png" alt="Fresh-Up Marvelous Apple">
                         <p><strong>$2.50</strong> <em style="font-size: small">400ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Mill Orchard Apple Orange</h3>
                         <img style=" width: 86%;"class="item-img" src="../img/drinks/apple_orange.png" alt="Fresh-Up Marvelous Apple">
                         <p><strong>$2.50</strong> <em style="font-size: small">400ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
 

@@ -5,45 +5,53 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Canteen Menu</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="shortcut icon" href="../favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" media="screen and (max-width: 757px)" href="../css/mobile.css">
-    <link rel="stylesheet" media="screen and (min-width: 758px)" href="../css/main.css">
+    <!--CSS for view windows smaller than 770px, mobiles-->
+    <link rel="stylesheet" media="screen and (max-width: 770px)" href="../css/mobile.css">
+    <!--CSS for view windows greater than 770px, pc-->
+    <link rel="stylesheet" media="screen and (min-width: 771px)" href="../css/main.css">
 
     <!--<script src="https://mail.garincollege.ac.nz/Resources/code.js?version=152"></script>-->
+
+    <!--Main JS script-->
     <script src="../js/main.js"></script>
+
+
 
 </head>
 
-    <body>
-        <div id="wrapper">
+<body>
+<div id="wrapper">
 
-            <!--Header -->
-            <div  style="background-color:#fff; width:100%">
-                <header>
-                    <a href="http://www.garincollege.ac.nz/" target="_blank"><img src="../img/logo.png" id="header-logo" alt="Garin College"></a>
-                    <span id="header-title" aria-hidden="true">Garin College</span>
-                    <span id="header-cafe" aria-hidden="true">Shadez Cafe</span>
+    <!--Header -->
+    <div  style="background-color:#fff; width:100%">
+        <header>
+            <!--Logo and title-->
+            <a href="http://www.garincollege.ac.nz/" target="_blank"><img src="../img/logo.png" id="header-logo" alt="Garin College"></a>
+            <span id="header-title" aria-hidden="true">Garin College</span>
+            <span id="header-cafe" aria-hidden="true">Shadez Cafe</span>
 
-                    <div class="dropdown">
-                        <buttton onclick="dropdown()" class="dropbtn">Menu <span class="dropdown-triangle" aria-hidden="true">▼</span></buttton>
-                        <div id="nav" class="dropdown-content">
+            <!--Nav, class "dropdown" only activates with widows smaller than 770px-->
+            <div class="dropdown">
+                <buttton onclick="dropdown()" class="dropbtn">Menu <span class="dropdown-triangle" aria-hidden="true">▼</span></buttton>
 
-                            <a href="../index.html">Home</a>
-                            <a href="drinks.html">Drinks</a>
-                            <a href="cold.html">Cold Food</a>
-                            <a href="hot.html">Hot Food</a>
-                            <a href="snacks.html">Snacks</a>
-                            <a href="frozen.html">Frozen</a>
-                        </div>
-                    </div>
-                </header>
+
+                <div id="nav" class="dropdown-content">
+                    <!--Links to other sites-->
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/drinks.html">Drinks</a>
+                    <a href="../pages/cold.html">Cold Food</a>
+                    <a href="../pages/hot.html">Hot Food</a>
+                    <a href="../pages/snacks.html">Snacks</a>
+                    <a href="../pages/frozen.html">Frozen</a>
+                </div>
             </div>
-            <hr>
-            <!--End Header-->
+        </header>
+    </div>
+    <hr>
+    <!--End Header-->
 
             <!--All Other content in here-->
             <div id="content">
@@ -55,33 +63,31 @@
                 <div id ="menu-items">
 
                     <!--Moosies-->
-
                     <div class="items">
+                        <!--Name of item-->
                         <h3>Moosie: Chocolate</h3>
+                        <!--Link to image-->
                         <img  class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
-                        <p><strong>$1.20</strong> <em style="font-size: small">85ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
+                        <!--Price and size-->
+                        <p><strong><!--Edit price-->$1.20</strong> <em style="font-size: small"><!--Edit size-->85ml</em></p>
                     </div>
 
                     <div class="items">
                         <h3>Moosie: Strawberry</h3>
                         <img class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.20</strong> <em style="font-size: small">85ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Moosie: Lime</h3>
                         <img  class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.20</strong> <em style="font-size: small">85ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Moosie: Blue Moon</h3>
                         <img  class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.20</strong> <em style="font-size: small">85ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <!--Juices-->
@@ -89,42 +95,36 @@
                         <h3>Juices: Lemonade</h3>
                         <img class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.50</strong> <em style="font-size: small">200ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Juices: Lemonade</h3>
                         <img class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.00</strong> <em style="font-size: small">100ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Juices: Orange & Apple</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.00</strong> <em style="font-size: small">100ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Juices: Tropical</h3>
                         <img class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.00</strong> <em style="font-size: small">100ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Juices: Apple</h3>
                         <img class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.00</strong> <em style="font-size: small">100ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Juices: Apple & Blackcurrent</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.00</strong> <em style="font-size: small">100ml</em></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                 </div>

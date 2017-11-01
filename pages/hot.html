@@ -1,5 +1,4 @@
 <!doctype html>
-<html class="no-js" lang="">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,40 +9,51 @@
     <link rel="shortcut icon" href="../favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" media="screen and (max-width: 757px)" href="../css/mobile.css">
-    <link rel="stylesheet" media="screen and (min-width: 758px)" href="../css/main.css">
+    <!--CSS for view windows smaller than 770px, mobiles-->
+    <link rel="stylesheet" media="screen and (max-width: 770px)" href="../css/mobile.css">
+    <!--CSS for view windows greater than 770px, pc-->
+    <link rel="stylesheet" media="screen and (min-width: 771px)" href="../css/main.css">
 
     <!--<script src="https://mail.garincollege.ac.nz/Resources/code.js?version=152"></script>-->
+
+    <!--Main JS script-->
     <script src="../js/main.js"></script>
+
+
 
 </head>
 
-    <body>
-        <div id="wrapper">
+<body>
+<div id="wrapper">
 
-            <!--Header -->
-            <div  style="background-color:#fff; width:100%">
-                <header>
-                    <a href="http://www.garincollege.ac.nz/" target="_blank"><img src="../img/logo.png" id="header-logo" alt="Garin College"></a>
-                    <span id="header-title" aria-hidden="true">Garin College</span>
-                    <span id="header-cafe" aria-hidden="true">Shadez Cafe</span>
+    <!--Header -->
+    <div  style="background-color:#fff; width:100%">
+        <header>
+            <!--Logo and title-->
+            <a href="http://www.garincollege.ac.nz/" target="_blank"><img src="../img/logo.png" id="header-logo" alt="Garin College"></a>
+            <span id="header-title" aria-hidden="true">Garin College</span>
+            <span id="header-cafe" aria-hidden="true">Shadez Cafe</span>
 
-                    <div class="dropdown">
-                        <buttton onclick="dropdown()" class="dropbtn">Menu <span class="dropdown-triangle" aria-hidden="true">▼</span></buttton>
-                        <div id="nav" class="dropdown-content">
+            <!--Nav, class "dropdown" only activates with widows smaller than 770px-->
+            <div class="dropdown">
+                <buttton onclick="dropdown()" class="dropbtn">Menu <span class="dropdown-triangle" aria-hidden="true">▼</span></buttton>
 
-                            <a href="../index.html">Home</a>
-                            <a href="drinks.html">Drinks</a>
-                            <a href="cold.html">Cold Food</a>
-                            <a href="hot.html">Hot Food</a>
-                            <a href="snacks.html">Snacks</a>
-                            <a href="frozen.html">Frozen</a>
-                        </div>
-                    </div>
-                </header>
+
+                <div id="nav" class="dropdown-content">
+                    <!--Links to other sites-->
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/drinks.html">Drinks</a>
+                    <a href="../pages/cold.html">Cold Food</a>
+                    <a href="../pages/hot.html">Hot Food</a>
+                    <a href="../pages/snacks.html">Snacks</a>
+                    <a href="../pages/frozen.html">Frozen</a>
+                </div>
+
             </div>
-            <hr>
-            <!--End Header-->
+        </header>
+    </div>
+    <hr>
+    <!--End Header-->
 
             <!--All Other content in here-->
             <div id="content">
@@ -55,66 +65,60 @@
                 <div id ="menu-items">
 
                     <div class="items">
+                        <!--Name of item-->
                         <h3>Bacon & Egg Roll</h3>
+                        <!--Link to image-->
                         <img class="item-img" src="../img/hot_food/ber.png" alt="Bacon, Lettuce, Tomato">
-                        <p><strong>$4.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
+                        <!--Price-->
+                        <p><strong><!--Edit price here-->$4.50</strong></p>
                     </div>
 
                     <div class="items">
                         <h3>Panini</h3>
                         <img class="item-img" src="../img/hot_food/penini.png" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$4.00</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Spaghetti Toasted Sandwhich</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/hot_food/spag_toastie.png" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$2.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Baked Bean Toasted Sandwhich</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$2.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Ham Toasted Sandwhich</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$2.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Mince Toasted Sandwhich</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$2.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Lasagna</h3>
                         <img  class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$4.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Salami Pizza</h3>
                         <img  class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$4.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Ham Pizza</h3>
                         <img  class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$4.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
 

@@ -10,40 +10,51 @@
     <link rel="shortcut icon" href="../favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" media="screen and (max-width: 757px)" href="../css/mobile.css">
-    <link rel="stylesheet" media="screen and (min-width: 758px)" href="../css/main.css">
+    <!--CSS for view windows smaller than 770px, mobiles-->
+    <link rel="stylesheet" media="screen and (max-width: 770px)" href="../css/mobile.css">
+    <!--CSS for view windows greater than 770px, pc-->
+    <link rel="stylesheet" media="screen and (min-width: 771px)" href="../css/main.css">
 
     <!--<script src="https://mail.garincollege.ac.nz/Resources/code.js?version=152"></script>-->
+
+    <!--Main JS script-->
     <script src="../js/main.js"></script>
+
+
 
 </head>
 
-    <body>
-        <div id="wrapper">
+<body>
+<div id="wrapper">
 
-            <!--Header -->
-            <div  style="background-color:#fff; width:100%">
-                <header>
-                    <a href="http://www.garincollege.ac.nz/" target="_blank"><img src="../img/logo.png" id="header-logo" alt="Garin College"></a>
-                    <span id="header-title" aria-hidden="true">Garin College</span>
-                    <span id="header-cafe" aria-hidden="true">Shadez Cafe</span>
+    <!--Header -->
+    <div  style="background-color:#fff; width:100%">
+        <header>
+            <!--Logo and title-->
+            <a href="http://www.garincollege.ac.nz/" target="_blank"><img src="../img/logo.png" id="header-logo" alt="Garin College"></a>
+            <span id="header-title" aria-hidden="true">Garin College</span>
+            <span id="header-cafe" aria-hidden="true">Shadez Cafe</span>
 
-                    <div class="dropdown">
-                        <buttton onclick="dropdown()" class="dropbtn">Menu <span class="dropdown-triangle" aria-hidden="true">▼</span></buttton>
-                        <div id="nav" class="dropdown-content">
+            <!--Nav, class "dropdown" only activates with widows smaller than 770px-->
+            <div class="dropdown">
+                <buttton onclick="dropdown()" class="dropbtn">Menu <span class="dropdown-triangle" aria-hidden="true">▼</span></buttton>
 
-                            <a href="../index.html">Home</a>
-                            <a href="drinks.html">Drinks</a>
-                            <a href="cold.html">Cold Food</a>
-                            <a href="hot.html">Hot Food</a>
-                            <a href="snacks.html">Snacks</a>
-                            <a href="frozen.html">Frozen</a>
-                        </div>
-                    </div>
-                </header>
+
+                <div id="nav" class="dropdown-content">
+                    <!--Links to other sites-->
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/drinks.html">Drinks</a>
+                    <a href="../pages/cold.html">Cold Food</a>
+                    <a href="../pages/hot.html">Hot Food</a>
+                    <a href="../pages/snacks.html">Snacks</a>
+                    <a href="../pages/frozen.html">Frozen</a>
+                </div>
+
             </div>
-            <hr>
-            <!--End Header-->
+        </header>
+    </div>
+    <hr>
+    <!--End Header-->
 
             <!--All Other content in here-->
             <div id="content">
@@ -55,31 +66,30 @@
                 <div id ="menu-items">
 
                     <div class="items">
+                        <!--Name of item-->
                         <h3>Raspberry & Wht Chocolate Muffin </h3>
+                        <!--Image link-->
                         <img style=" width: 86%;" class="item-img" src="../img/snacks/rasberry_muffin.png" alt="Bacon, Lettuce, Tomato">
-                        <p><strong>$2.80</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
+                        <!--Price-->
+                        <p><strong><!--Edit price here-->$2.80</strong></p>
                     </div>
 
                     <div class="items">
                         <h3>Banana & Chocolate Muffin</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/placeholder.jpg" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$2.80</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Cheese & Herb Scone</h3>
                         <img class="item-img" src="../img/snacks/scone.png" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$2.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Choc Chip Waffle</h3>
                         <img class="item-img" src="../img/snacks/waffle.png" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.00</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <!--Chips-->
@@ -87,21 +97,18 @@
                         <h3>Proper Crisps: <br>Sea Salt</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/snacks/seasalt_crisps.png" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$2.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Proper Crisps: Kumara</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/snacks/kumara_crisps.png" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$2.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <div class="items">
                         <h3>Proper Crisps: Parsnip</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/snacks/parsnip_crisps.png" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$2.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <!--Sesame Crisp-->
@@ -109,7 +116,6 @@
                         <h3>Sesame Crisp</h3>
                         <img class="item-img" src="../img/snacks/sesame_crisp.png" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$1.00</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
                     <!--Bumper Bars-->
@@ -117,7 +123,6 @@
                         <h3>Proper Crisps: Parsnip</h3>
                         <img style=" width: 86%;" class="item-img" src="../img/snacks/parsnip_crisps.png" alt="Bacon, Lettuce, Tomato">
                         <p><strong>$2.50</strong></p>
-                        <a  href="#" class="more">Ingredients & </br>Nutritional Information</a>
                     </div>
 
 
