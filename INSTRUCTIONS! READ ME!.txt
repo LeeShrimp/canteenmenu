@@ -1,0 +1,56 @@
+Where certain files are, what they do and which ones to edit: 
+
+-In the folder "img" is where all the images for the site should be kept. 
+	There are subfolders within here to organise the different categories of food. 
+
+-In the folder "pages" is where you will find the files that are the catgorized pages on the website. 
+	Here is the files you can edit to add, take off or edit items on the menu.
+	Find the category you need to find for example to add a new jucie flavour go and edit the "frozen.html" file.
+
+- In the folder "backup" is a copy of the website in a state that works.
+	If a large mistake is bad the site can be restored to its previous state by copying all the files in "backup" in to the main directory and overwriting ALL when the prompt asks.   
+
+- *FOLDERS AND FILES NOT TO TOUCH UNLEES YOU KNOW WHAT YOUR'E DOING*
+	- css
+	- doc
+	- js
+	- 404.html
+	- browserconfig.xml
+	- crossdomain.xml
+	- favicon.ico
+	- .idea
+	- .git
+------------------------------------------------------------------------------------
+How to add or edit an item on the menu:
+
+1. Locate the appropriate file for what you are editing or adding
+2. Find an image of the item or take a photo with a one colour behind it to make editing easier. Also tryy and get one lighting setting.
+3. Edit the image so that it inside a 200px W X 150px H canvas (the image dimensions should be 200X150px)
+3. Save as a .png as these support transparency 
+4. Save image in appropriate folder for its category eg. Cold Food, Snacks
+5. Label clearly and with no spaces eg. "chocaffle.png"
+6. Copy this block of code and fill in its name, price and size if needed. 
+   Name should be less than 28 characters (INCLUDING SPACES) to fit page properly
+   
+   **IF THERE IS NO IMAGE AVAILABLE PUT THIS AS IMAGE LINK -> ../img/placeholder.jpg	
+	
+		<div class="items">
+                        <!--Name of item-->
+                        <h3>**NAME OF ITEM**</h3>
+                        <!--Link to image. Link goes inside of quote marks eg. src="here"-->
+                        <img  class="item-img" src="../img/**FOLDER NAME HERE**/*IMAGE NAME HERE**" alt="**IF ITEM NAME DOES NOT FULLY FITIN ABOVE SLOT YOU CAN PUT A FULL DESRICPTION HERE**">
+                        <!--Price and size-->
+                        <p><strong>$0.00</strong> <em style="font-size: small">000ml</em></p>
+    		</div>
+
+
+7. Fill in the *FOLDER NAME HERE** & **IMAGE NAME HERE**
+8. If item has no ml size then just delete the 000ml and it will show blankx
+
+Extra notes:
+-all link to images MUST stay within the " " marks
+-links are case sensitive
+-prices and size MUST stay within these > and < signs
+-need to save the file after each change for it to take effect
+
+--------------------------------------------------------------------------------------------------------
