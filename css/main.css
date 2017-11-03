@@ -237,6 +237,19 @@ a:hover{
 
 }
 
+.items-avl{
+    padding: 3px ;
+    margin: 4px  ;
+    width: 23%;
+    height: 260px;
+    display: inline-block;
+    float: left;
+    border: px solid #f0f0f0;
+
+    background-color: white;
+
+}
+
 .item-img {
     margin: auto;
     display: block;
