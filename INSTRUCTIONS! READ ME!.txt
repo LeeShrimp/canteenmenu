@@ -41,16 +41,20 @@ How to add or edit an item on the menu:
                         <img  class="item-img" src="../img/**FOLDER NAME HERE**/*IMAGE NAME HERE**" alt="**IF ITEM NAME DOES NOT FULLY FITIN ABOVE SLOT YOU CAN PUT A FULL DESRICPTION HERE**">
                         <!--Price and size-->
                         <p><strong>$0.00</strong> <em style="font-size: small">000ml</em></p>
+			<!--Avialibility-->
+ 			<P>**AVALIBILTY HERE**</P>
     		</div>
 
 
 7. Fill in the *FOLDER NAME HERE** & **IMAGE NAME HERE**
-8. If item has no ml size then just delete the 000ml and it will show blankx
+8. If item has no ml size then just delete the 000ml and it will show bla
+
 
 Extra notes:
 -all link to images MUST stay within the " " marks
 -links are case sensitive
 -prices and size MUST stay within these > and < signs
 -need to save the file after each change for it to take effect
+
 
 --------------------------------------------------------------------------------------------------------
