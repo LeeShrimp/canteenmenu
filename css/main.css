@@ -237,6 +237,11 @@ a:hover{
 
 }
 
+.items:hover{
+    transition: all 200ms ease-in;
+    transform:  scale(2);
+}
+
 .items-avl{
     padding: 3px ;
     margin: 4px  ;
@@ -254,6 +259,12 @@ a:hover{
     margin: auto;
     display: block;
 	width: 100%;
+
+
+}
+
+.item-img:hover {
+
 }
 
 /* Footer*/
